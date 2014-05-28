@@ -18,7 +18,7 @@ module.exports = function (pendingOffers) {
         if (offer.trade_offer_state !== 2) return;
 
         var bot              = Stem.bot,
-            isOfferFromAdmin = Stem.utils.isAdmin(offer.steamid_other),
+            isOfferFromAdmin = Stem.api.isAdmin(offer.steamid_other),
             alertAdmins      = Stem.configs['stem-storage'].alertAdmins;
 
         if (isOfferFromAdmin) {
