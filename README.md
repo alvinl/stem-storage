@@ -3,7 +3,7 @@ Stem storage
 
 ### Installation
 
-1. `npm install git://github.com/alvinlz/stem-storage.git`
+1. `npm install git://github.com/alvinl/stem-storage.git`
 2. Add `"stem-storage": {}` to plugins.json
 
 ### Config
